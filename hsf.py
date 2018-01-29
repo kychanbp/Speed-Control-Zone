@@ -133,7 +133,7 @@ def enteredZone (LAT, LON):
     B4 = B_4 (LAT, LON)
 
 
-    if B1 == True  and B4 == True and check_devaiation_notInZone(LAT, LON) == False:
+    if B1 == True  and B4 == True and notInZone(LAT, LON) == False:
         return True
     else:
         return False
